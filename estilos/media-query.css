@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -20,6 +21,11 @@
         float: right;
         width: 70%;
     }
+
+    div#formulario > p {
+        font-size: 1.0em;
+        margin: 20px 0px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -30,6 +36,7 @@
     
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -48,6 +55,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1.0em;
+        margin: 20px 0px;
     }
 }
